@@ -1,31 +1,21 @@
-# curriculum-databases-projects-template
+# Vet clinic Database
 
-> This template should be used for database related projects at Microverse.
-> Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
-
+> This is a database for a vet clinic. It contains information about animals and their owners. It also contains information about the vets and the treatments they have done.
 
 ## Getting Started
 
 This repository includes files with plain SQL that can be used to recreate a database:
 
-- Use [schema.sql](./schema.sql) to create all tables.
-- Use [data.sql](./data.sql) to populate tables with sample data.
-- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
-
+- `schema.sql`: contains the database schema in SQL.
+- `data.sql`: contains some data to insert into the database.
+- `queries.sql`: contains some queries that can be run against the database.
 
 ## Authors
 
-👤 **Author1**
+👤 **Baraka Danny (Me)**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@barakadan](https://github.com/barakadanny)
+- LinkedIn: [danny baraka](https://www.linkedin.com/in/danny-baraka-589156169/)
 
 ## 🤝 Contributing
 
