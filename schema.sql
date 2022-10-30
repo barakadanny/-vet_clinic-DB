@@ -27,3 +27,21 @@ ALTER TABLE animals ADD PRIMARY KEY (id);
 ALTER TABLE animals DROP COLUMN species;
 ALTER TABLE animals ADD species_id BIGINT REFERENCES species(id);
 ALTER TABLE animals ADD owner_id BIGINT REFERENCES owners(id);
+
+CREATE TABLE vets (
+    id BIGSERIAL PRIMARY KEY,
+    name varchar(100),
+    age integer,
+    date_of_graduation date
+);
+
+CREATE TABLE specializations (
+    species_id integer,
+    vet_id integer
+);
+
+CREATE TABLE visits (
+    animal_id int,
+    vet_id int,
+    date_of_visit date
+);
