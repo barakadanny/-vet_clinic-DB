@@ -12,6 +12,7 @@ INSERT INTO animals (name, date_of_birth, escape_attempts, neutered, weight_kg) 
 INSERT INTO animals (name, date_of_birth, escape_attempts, neutered, weight_kg) VALUES ('Boarmon', date '2005-06-07', '7', 'true', '20.4');
 INSERT INTO animals (name, date_of_birth, escape_attempts, neutered, weight_kg) VALUES ('Blossom', date '1998-08-13', '3', 'true', '17');
 INSERT INTO animals (name, date_of_birth, escape_attempts, neutered, weight_kg) VALUES ('Ditto', date '2022-05-14', '4', 'true', '22');
+INSERT INTO animals (name, date_of_birth, escape_attempts, neutered, weight_kg) VALUES ('Maxis', date '2022-03-12', '3', 'true', '26');
 
 INSERT INTO owners (full_name, age) VALUES ('Sam Smith', '34');
 INSERT INTO owners (full_name, age) VALUES ('Jennifer Orwell', '19');
